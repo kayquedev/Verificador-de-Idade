@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qual é minha idade?</title>
+
+</head>
+
+<link href="style.css" rel="stylesheet">
+<script type="text/javascript" src="script.js"></script>
+
+<body>
+
+    <header class="titulo">
+        <h1>Qual é Minha Idade?</h1>
+    </header>
+
+    <section>
+        <div class="container">
+
+
+            <div class="box">
+                <div class="nascimento"> Ano de Nascimento:  
+                    <input id="txtano" type="number" min="1700">
+                </div>
+
+                <div class="sexo">Sexo:
+                    <input type="radio" name="radsex" id="masc" checked>
+                    <label for="masc">Masculino</label>
+
+                    <input type="radio" name="radsex" id="fem">
+                    <label for="fem">Feminino</label>
+                </div>
+
+                <div id="res"><strong>Resultado:</strong></div>
+
+                <div class="foto">  
+                    <img id="imagem" alt="foto" src="Exercicios 02/imagens/15.png">
+                    <!----- src="Exercicios 02/imagens/5.png" -->
+                </div>
+
+                <input type="button" id="botao" value="Verificar" onclick="verificar()">
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; Kayque Oliveira</p>
+    </footer>
+    
+
+  <!---  <img id="fundo" src="Exercicios 02/imagens/fundo.jpg">->
+
+    
+</body>
+
+
+</html>
